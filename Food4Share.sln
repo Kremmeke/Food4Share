@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food4Share", "Food4Share\Food4Share.csproj", "{F9622D3A-C71F-4B53-BDC1-75C3BF0D9E60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Domain", "10. Domain", "{B2A14E76-705D-4117-A8F4-52CA13393F5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Repository", "20. Repository", "{E638A00A-5448-48AF-B1FE-6F91D0D0D0DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30. ServiceLayer", "30. ServiceLayer", "{EB1CDE04-3E64-4F0E-AF2C-2615EE406AA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40. WebLayer", "40. WebLayer", "{1FD3C256-B138-4583-8102-E242F874CA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food4Share.Domain", "Food4Share.Domain\Food4Share.Domain.csproj", "{FC3552DF-F66F-4E6B-85AD-87245D9AB143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food4Share.Repository", "Food4Share.Repository\Food4Share.Repository.csproj", "{56299360-090E-4953-A410-136E622D29B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food4Share.ServiceLayer", "Food4Share.ServiceLayer\Food4Share.ServiceLayer.csproj", "{BA63CA6D-3194-4207-93C3-00222E39FF2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9622D3A-C71F-4B53-BDC1-75C3BF0D9E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9622D3A-C71F-4B53-BDC1-75C3BF0D9E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9622D3A-C71F-4B53-BDC1-75C3BF0D9E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9622D3A-C71F-4B53-BDC1-75C3BF0D9E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3552DF-F66F-4E6B-85AD-87245D9AB143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3552DF-F66F-4E6B-85AD-87245D9AB143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3552DF-F66F-4E6B-85AD-87245D9AB143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3552DF-F66F-4E6B-85AD-87245D9AB143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56299360-090E-4953-A410-136E622D29B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56299360-090E-4953-A410-136E622D29B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56299360-090E-4953-A410-136E622D29B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56299360-090E-4953-A410-136E622D29B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA63CA6D-3194-4207-93C3-00222E39FF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA63CA6D-3194-4207-93C3-00222E39FF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA63CA6D-3194-4207-93C3-00222E39FF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA63CA6D-3194-4207-93C3-00222E39FF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9622D3A-C71F-4B53-BDC1-75C3BF0D9E60} = {1FD3C256-B138-4583-8102-E242F874CA36}
+		{FC3552DF-F66F-4E6B-85AD-87245D9AB143} = {B2A14E76-705D-4117-A8F4-52CA13393F5B}
+		{56299360-090E-4953-A410-136E622D29B3} = {E638A00A-5448-48AF-B1FE-6F91D0D0D0DF}
+		{BA63CA6D-3194-4207-93C3-00222E39FF2C} = {EB1CDE04-3E64-4F0E-AF2C-2615EE406AA5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30E2FBCD-761B-4FFC-B5F5-A392D7D08710}
+	EndGlobalSection
+EndGlobal
