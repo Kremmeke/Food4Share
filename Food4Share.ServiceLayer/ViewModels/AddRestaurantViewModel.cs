@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Food4Share.ServiceLayer
+namespace Food4Share.ServiceLayer.ViewModels
 {
-    public class OrderService
+    public class AddRestaurantViewModel
     {
-        public void PlaceHolder()
-        {
-
-        }
+        public string Name { get; set; }
     }
 }

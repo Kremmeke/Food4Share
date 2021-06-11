@@ -1,0 +1,9 @@
+﻿@model Food4Share.ServiceLayer.ViewModels.AddRestaurantViewModel
+<p>Create Restaurant</p>
+<form asp-controller="Restaurant" asp-action="Create" method="post">
+    <label asp-for="Name">Name: </label>
+    <input asp-for="Name" type="text"/>
+    <button type="submit" class="btn">Submit</button>
+</form>
+@{
+}
